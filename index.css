@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+header .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkred;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;]
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
+}
+
+main {
+  flex: 1; 
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+
+aside {
+
+ 
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+aside h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside li {
+  background-color: darkred;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+article {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+ 
+}
+
+article h1 {
+  margin-bottom: 1rem;
+  font-size: bold;
+  color: black;
+}
+
+
+.testimonial {
+  background-color: gray;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid gray;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
